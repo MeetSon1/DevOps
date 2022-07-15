@@ -6,6 +6,8 @@ Prerequisite:
   - basic knowledge of different aws services   
   - basic knowledge of installation of packages in linux operatin system ( not mandatory )
 
+------------------------------------------------------------------------------------------
+
 1. Create vpc
 2. Create internet gateway 
 3. Create custom route table 
