@@ -1,2 +1,2 @@
-In this repository.
-I have put example codes and methods for creating resources 
+In this Repository.
+I've included sample codes and techniques for creating resources. 
