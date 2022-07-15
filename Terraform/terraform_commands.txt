@@ -1,0 +1,40 @@
+
+-- to initialuze terraform with provider and install dependancies --
+terraform init
+
+-- to check terraform code is right or wrong --
+terraform validate
+
+-- to check everything befor applying terraform 
+terraform plan
+
+-- to create env as per requirement --
+terraform apply 
+terraform apply -auto-approve
+
+
+-- to check that desired state is running or note --
+terraform refresh
+
+
+-- sub command of terraform --
+terraform state
+
+-- to check list of resources --
+terraform state list
+
+-- to check details about specific resource --
+terraform state show <resource-from-list>
+
+-- to only destroy specific component from all terraform resources
+terraform destroy -target <resource>
+terraform destroy -target aws_instance.web-server-instance 
+
+-- to only apply specific component from all terraform resources
+terraform apply -target <resource>
+terraform apply -target aws_instance.web-server-instance 
+
+
+
+
+
